@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework_6 / Task_3</title>
+</head>
+<body>
+    
+    <h2>Article header</h2>      
+      <div id="text">
+        <p>First paragraph</p>
+        <p>Second paragraph</p>
+        <p>Third paragraph</p>
+      </div>
+	<p>Another text</p>
+
+    <script>
+     let getElem_t3 = document.querySelectorAll('#text p');
+        for(i = 0; i <= getElem_t3.length - 1; i++) {
+        console.log('Selector text ' + i + ': ' + getElem_t3[i].outerText)
+    }    
+    </script>
+
+
+
+</body>
+</html>
