@@ -5,9 +5,9 @@ document.querySelector('div').innerHTML = 'Last';
 
 // ___________________________________________Task_2___________________________________________________________________
 
-let img = document.querySelector('img').src = 'cat.jpg';
-alert(img);
-
+let img = document.querySelector('.image');
+img.setAttribute('src', 'cat.jpg');
+alert(img.src);
 // ___________________________________________Task_3___________________________________________________________________
 
 // скріпт прописаний в task_3.html
