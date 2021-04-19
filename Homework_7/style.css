@@ -1,8 +1,5 @@
 div {
     margin: 10px;
-}
-div {
     border: 2px solid black;
     display: inline-block;  
-    
 }
